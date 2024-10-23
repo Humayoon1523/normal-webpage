@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my website</title>
+    <link rel="icon" type="image/x-icon" href="tecimg.jpg">
+</head>
+<style>
+body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: white;
+            background: url("3248483.webp");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        header {
+            background: rgb(77, 72, 72);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;}
+        section {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .hero {
+            background: #e8f5e9;
+            padding: 50px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 30%;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background:rgb(77, 72, 72) ;
+        }
+</style>
+<body>
+    <header style="text-align: center;">
+        <h1>Welcome to My Webpage</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <h2>Your Success is Our Goal</h2>
+        <p>Join us on a journey to achieve your dreams with our expertise.</p>
+    </section>
+    <section id="about" class="about">
+        <h2>about my page</h2>
+        <p>If you want to know about me click this <ins>LINK</ins></p>
+        <a href ="portfolio.html" >About me</a>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Service One</h3>
+                <p>Detailed description of service one goes here.</p>
+            </div>
+            <div class="service">
+                <h3>Service Two</h3>
+                <p>Detailed description of service two goes here.</p>
+            </div>
+            <div class="service">
+                <h3>Service Three</h3>
+                <p>Detailed description of service three goes here.</p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <blockquote>
+            <p>"This company transformed my business!" - Happy Client</p>
+        </blockquote>
+        <blockquote>
+            <p>"I couldn't be more satisfied with the results!" - Another Happy Client</p>
+        </blockquote>
+    </section>
+    <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+    <p>If any issue concact <ins>xyzwebsite@gmail.com</ins></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 My Big Webpage. All rights reserved.</p>
+</footer>
+</body>
+</html>
